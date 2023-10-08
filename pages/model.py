@@ -1,15 +1,10 @@
-import numpy as np
 import dash
 from dash import html
 from dash import dcc
 from dash.dependencies import Input, Output, State
-import pandas as pd
-import io, base64
-import librosa
+import base64
 from dash import callback
-from memory_profiler import profile
 import requests
-import json
   
 #figure = go.Figure(go.Scatter(name="Model", x=top50_results['year'], y=top50_results['rank']))
 
